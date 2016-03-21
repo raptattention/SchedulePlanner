@@ -17,7 +17,10 @@
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
 build/
+=======
+>>>>>>> dcac5d25a2a3ee09487ab7a4a6b351ecda5bd2e3
 bld/
 [Bb]in/
 [Oo]bj/
@@ -138,7 +141,11 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
+<<<<<<< HEAD
 # TODO: Comment the next line if you want to checkin your web deploy settings
+=======
+# TODO: Comment the next line if you want to checkin your web deploy settings 
+>>>>>>> dcac5d25a2a3ee09487ab7a4a6b351ecda5bd2e3
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -151,6 +158,12 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+<<<<<<< HEAD
+=======
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+>>>>>>> dcac5d25a2a3ee09487ab7a4a6b351ecda5bd2e3
 
 # Microsoft Azure Build Output
 csx/
